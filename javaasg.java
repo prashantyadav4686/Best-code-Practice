@@ -39,7 +39,7 @@ class Area {
         System.out.println("Enter the radius");
         Scanner sc = new Scanner(System.in);
         radius = sc.nextFloat();
-        area = 3.14*radius*radius;
+        area = 3.14 * radius * radius;
         System.out.println("Area of circle = "+area);
     }
     // Program to calcvulate the Area of Rectangle
