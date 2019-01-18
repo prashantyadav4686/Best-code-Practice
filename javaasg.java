@@ -40,7 +40,7 @@ class Area {
         Scanner sc = new Scanner(System.in);
         radius = sc.nextFloat();
         area = 3.14 * radius * radius;
-        System.out.println("Area of circle = "+area);
+        System.out.println("Area of circle = " + area + " " + "squnits") ;
     }
     // Program to calcvulate the Area of Rectangle
     public void Rectangle() {
@@ -51,7 +51,7 @@ class Area {
         System.out.println("Enter the breadth of side");
         breadth = sc.nextFloat();
         area = length * breadth;
-        System.out.println("Area of Rectangle = " +area);
+        System.out.println("Area of Rectangle = " + area + " " + "squnits");
         
     }
     // Program to calculate the Area of Square
@@ -61,7 +61,7 @@ class Area {
         Scanner sc = new Scanner(System.in);
         side = sc.nextFloat();
         area = side * side;
-        System.out.println("Area of Square = " +area);
+        System.out.println("Area of Square = " + area + " " + "squnits");
     }
     // Program to calculate the Area of Triangle
     public void Triangle() {
@@ -73,7 +73,7 @@ class Area {
         System.out.println("Enter the length of base");
         base = sc.nextFloat();
         area = 0.5 * base * altitude;
-        System.out.println("Area of Triangle = " +area);
+        System.out.println("Area of Triangle = " + area + " " + "squnits");
         
     }
 }
